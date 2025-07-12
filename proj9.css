@@ -1,0 +1,66 @@
+/* General Body Styling */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+  padding: 40px;
+  color: #333;
+}
+
+/* FAQ Section Container */
+.faq-section {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e6ed;
+}
+
+/* Heading */
+.faq-section h1 {
+  text-align: center;
+  font-size: 2.2em;
+  color: #2c3e50;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+/* FAQ List Styling */
+.faq-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Each Q&A Block */
+.faq-list li {
+  background: #f8fbfd;
+  border-left: 6px solid #3498db;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.faq-list li:hover {
+  background: #eaf4fc;
+}
+
+/* Question Styling */
+.question {
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #1a5276;
+  margin-bottom: 8px;
+  display: block;
+}
+
+/* Answer Styling */
+.answer {
+  font-size: 1em;
+  line-height: 1.6;
+  color: #4b4b4b;
+  padding-left: 10px;
+}
+
